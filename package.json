@@ -1,0 +1,19 @@
+{
+  "name": "msauto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/webhook.js",
+    "vercel-build": "echo 'Express app – no build step'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.63.0"
+  }
+}
